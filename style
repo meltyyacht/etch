@@ -1,0 +1,30 @@
+#boxOfBoxes{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: auto;
+  justify-content: center;
+  border-style: solid;
+  border-size: 10px;
+  border-radius: 10px;
+  border-color: orange;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+.box{
+  background-color: grey;
+  border-style: solid;
+  border-color: black;
+  border-size: .1px;
+  flex: 1;
+}
+.on{
+  background-color: darkred;
+}
+#rainbowTest{
+  font-size: 55px;
+}
